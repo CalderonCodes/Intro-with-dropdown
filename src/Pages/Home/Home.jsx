@@ -7,14 +7,15 @@ function Home() {
   return (
     <div className='bg-AlmostWhite  min-h-screen flex flex-col'>
         <Sidebar/>
-        <div className='bg-AlmostWhite h-full font-Epilogue flex-1 flex flex-col gap-10'>
-          <figure className='h-80'>
-            <img className='object-cover w-full h-80 ' src="assets/image-hero-mobile.png" alt="" />
+        <div className='bg-AlmostWhite lg:px-32 h-full lg:min-h-full font-Epilogue flex-1 flex flex-col lg:items-center lg:justify-center lg:flex-row-reverse gap-10 lg:gap-20'>
+          <figure className='h-80 lg:w-1/2 lg:h-full flex justify-center '>
+            <img className='object-cover w-full h-80 lg:h-full lg:hidden ' src="assets/image-hero-mobile.png" alt="" />
+            <img className='object-cover w-10/12 hidden lg:flex ' src="assets/image-hero-desktop.png" alt="" />
           </figure>
 
-          <div className='flex flex-col items-center'>
-            <h1 className='text-4xl font-bold'> Make remote work</h1>
-            <p className='text-center text-MiedumGray font-semibold p-5'>
+          <div className='flex flex-col lg:min-h-full lg:w-1/2  lg:justify-center lg:items-start items-center lg:gap-7'>
+            <h1 className='text-4xl lg:text-7xl font-bold'> Make remote work</h1>
+            <p className='text-center lg:text-left lg:pl-0 text-MiedumGray font-semibold p-5'>
               Get your team in sync, no matter your location. Streamline processes, create team rituals,
                and watch productivity soar.</p>
           <Button/>
