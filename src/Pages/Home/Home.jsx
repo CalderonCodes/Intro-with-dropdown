@@ -19,15 +19,22 @@ function Home() {
               Get your team in sync, no matter your location. Streamline processes, create team rituals,
                and watch productivity soar.</p>
           <Button/>
-          <div className='flex w-full mt-10 justify-between items-center px-3'>
+          <div className='flex w-full lg:mt-10 mt-8 justify-between items-center px-3'>
             <img className='h-5' src="src/assets/client-databiz.svg" alt="databiz" />
             <img className='h-8' src="src/assets/client-audiophile.svg" alt="audiophile" />
             <img className='h-5' src="src/assets/client-meet.svg" alt="meet" />
             <img className='h-5' src="src/assets/client-maker.svg" alt="maker" />
           </div>
           </div>
-          
         </div>
+
+        <div className="flex flex-col montserrat-500 text-center lg:text-sm text-xs text-AlmostBlack-50 pb-5 lg:pl-5 lg:absolute lg:left-0 lg:bottom-0">
+        <div>
+        Challenge by <a className="underline text-super-dark-cyan" href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+        </div>
+        <div>Coded by <a className="underline italic" href="https://github.com/CalderonCodes">Christopher Calderon</a>.</div>
+        </div>
+
     </div>
   )
 }
