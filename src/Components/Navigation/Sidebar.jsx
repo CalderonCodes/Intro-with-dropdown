@@ -13,18 +13,38 @@ function Sidebar() {
         </label>
       </div> 
       <div className="navbar-start  lg:w-1/12 lg:px-0 lg:mx-5 mt-2 flex lg:items-center lg:justify-center">
-            <img className="w-18 h-6" src='/public/assets/logo.svg' />
+            <img className="w-18 h-6" src='/src/assets/logo.svg' />
         </div>
       <div className="flex-none hidden lg:block">
       <ul className="menu menu-horizontal  px-1">
       <li className='' tabIndex={0}>
         <details>
           <summary className='hover:text-AlmostBlack hover:bg-AlmostWhite'>Features</summary>
-          <ul className="p-2">
-            <li><a>Todo List</a></li>
-            <li><a>Calendar</a></li>
-            <li><a>Reminders</a></li>
-            <li><a>Planning</a></li>
+          <ul className="p-2 w-40">
+          <li>
+              <div>
+                <img src={'/src/assets/icon-todo.svg'} alt="Icon" className="h-4 w-4" />
+                Todo List
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={'/src/assets/icon-calendar.svg'} alt="Icon" className="h-4 w-4" />
+                Calendar
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={'/src/assets/icon-reminders.svg'} alt="Icon" className="h-4 w-4" />
+                Reminders
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={'/src/assets/icon-planning.svg'} alt="Icon" className="h-4 w-4" />
+                Planning
+              </div>
+            </li>
           </ul>
         </details>
       </li>
@@ -56,10 +76,30 @@ function Sidebar() {
         <details>
           <summary>Features</summary>
           <ul className="p-2">
-            <li><a>Todo List</a></li>
-            <li><a>Calendar</a></li>
-            <li><a>Reminders</a></li>
-            <li><a>Planning</a></li>
+            <li>
+              <div>
+                <img src={'/src/assets/icon-todo.svg'} alt="Icon" className="h-4 w-4" />
+                Todo List
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={'/src/assets/icon-calendar.svg'} alt="Icon" className="h-4 w-4" />
+                Calendar
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={'/src/assets/icon-reminders.svg'} alt="Icon" className="h-4 w-4" />
+                Reminders
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src={'/src/assets/icon-planning.svg'} alt="Icon" className="h-4 w-4" />
+                Planning
+              </div>
+            </li>
           </ul>
         </details>
       </li>
